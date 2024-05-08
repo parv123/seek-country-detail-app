@@ -1,12 +1,8 @@
-import './App.css';
-import CountryDetails from './pages/CountryDetails';
+import "./App.css";
+import CountryDetails from "./pages/CountryDetails";
 
 function App() {
-  return (
-    <div className="App">
-      <CountryDetails />
-    </div>
-  );
+  return <CountryDetails />;
 }
 
 export default App;
