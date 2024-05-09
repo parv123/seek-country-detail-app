@@ -1,0 +1,28 @@
+.flex {
+    display: flex
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.container {
+    width: 100%;
+}
+.countryCard{
+ margin:30px 40px;
+ background-color:hsl(209, 23%, 22%);
+ width: 267px;
+ height: 336px;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: transform .2s;
+}
+.countryCard:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,7 +1,24 @@
+
 .App {
   text-align: center;
 }
-
+body {
+  background-color: hsl(207, 26%, 17%);
+  font-family: 'Nunito Sans', sans-serif;
+  color:  hsl(0, 0%, 100%);
+}
+.name-heading {
+  color:  hsl(0, 0%, 100%);
+  font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.detail {
+  color:  hsl(0, 0%, 100%);
+  font-size: 14px;
+    font-weight: 400;
+   line-height: 24px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
