@@ -1,9 +1,8 @@
 .navbar {
-  background-color: hsl(209, 23%, 22%);
   padding: 28px 40px;
   position: fixed;
-    width: 100%;
-    top:0;
+  width: 100%;
+  top: 0;
 }
 .navbar-heading {
   font-size: 24px;

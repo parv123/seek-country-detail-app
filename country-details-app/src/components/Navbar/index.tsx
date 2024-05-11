@@ -50,13 +50,16 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-const Navbar = ({ heading }: { heading: string }) => {
+const Navbar = ({ heading , mode , style, handleModeChange}: { heading: string, mode:string ,style:any, handleModeChange : ()=>void }) => {
   return (
-    <div className="navbar">
+    <div style={mode === "light"? style.light.subBody :  style.dark.subBody } className="navbar">
         <div className="flex space-between">
       <div className="navbar-heading">{heading}</div>
       <div style={{marginRight:"80px"}}>
-      <MaterialUISwitch />
+      <MaterialUISwitch 
+       checked= {mode==='dark'?true:false}
+       onChange = {handleModeChange}
+      />
       </div>
       </div>
     </div>
